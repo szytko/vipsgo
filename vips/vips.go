@@ -6,7 +6,7 @@ package vips
 #cgo CFLAGS: -I../c/include
 #cgo LDFLAGS: -L../c -lvips_wrapper -Wl,-rpath,../c
 #cgo pkg-config: vips-cpp
-#include "vips_wrapper.h"
+#include "c/include/vips_wrapper.h"
 #include <stdlib.h> // For free
 
 // Forward declarations for functions that return pointers,
