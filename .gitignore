@@ -1,0 +1,60 @@
+# Build directories
+build/
+c/build/
+c/CMakeFiles/
+c/CMakeCache.txt
+c/cmake_install.cmake
+c/Makefile
+c/test/test_*.jpg
+c/test_wrapper
+
+# C/C++ compiled objects and libraries
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Go build artifacts
+examples/example
+*.test
+*.prof
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Go specific
+vendor/
+*.sum
+
+# Test output files (keeping test images but ignoring potential output)
+test_output_*
