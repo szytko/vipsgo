@@ -1,12 +1,12 @@
 # Build directories
 build/
-c/build/
-c/CMakeFiles/
-c/CMakeCache.txt
-c/cmake_install.cmake
-c/Makefile
-c/test/test_*.jpg
-c/test_wrapper
+vips/c/build/
+vips/c/CMakeFiles/
+vips/c/CMakeCache.txt
+vips/c/cmake_install.cmake
+vips/c/Makefile
+vips/c/test/test_*.jpg
+vips/c/test_wrapper
 
 # C/C++ compiled objects and libraries
 *.o
@@ -31,12 +31,8 @@ examples/example
 Thumbs.db
 
 # CMake generated files
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-*.cmake
-!CMakeLists.txt
+vips/c/*.cmake
+vips/c/!CMakeLists.txt
 
 # Temporary and log files
 *.log
